@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1945-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fNc-pO-FOI">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Canh Dang" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECH-08-aPk">
+                                <rect key="frame" x="211" y="541" width="179" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AirtStrike Version 1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5f-rz-H9K">
+                                <rect key="frame" x="211" y="512" width="179" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="179" id="Fgh-kW-Kqj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fNc-pO-FOI" secondAttribute="trailing" id="8JS-5K-k8Z"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ECH-08-aPk" secondAttribute="bottom" constant="38" id="Dbu-5I-9WP"/>
+                            <constraint firstItem="q5f-rz-H9K" firstAttribute="leading" secondItem="ECH-08-aPk" secondAttribute="leading" id="Rmz-Cu-rdp"/>
+                            <constraint firstItem="fNc-pO-FOI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="bqq-lF-LW6"/>
+                            <constraint firstItem="fNc-pO-FOI" firstAttribute="centerX" secondItem="ECH-08-aPk" secondAttribute="centerX" id="dk2-qv-1gd"/>
+                            <constraint firstItem="q5f-rz-H9K" firstAttribute="trailing" secondItem="ECH-08-aPk" secondAttribute="trailing" id="kDG-TI-gEc"/>
+                            <constraint firstItem="fNc-pO-FOI" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="owV-6H-YmW"/>
+                            <constraint firstItem="fNc-pO-FOI" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="q3x-GE-spe"/>
+                            <constraint firstItem="ECH-08-aPk" firstAttribute="top" secondItem="q5f-rz-H9K" secondAttribute="bottom" constant="8" symbolic="YES" id="u2R-ii-WTN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1945-logo.png" width="300" height="300"/>
+    </resources>
+</document>
