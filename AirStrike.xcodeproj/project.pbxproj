@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4535802C1D8D88730005E9C7 /* laser_shoot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4535802B1D8D88730005E9C7 /* laser_shoot.wav */; };
+		453580301D8D8B180005E9C7 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4535802F1D8D8B180005E9C7 /* explosion.wav */; };
+		4535803A1D8D944C0005E9C7 /* enemy_plane_white_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 453580371D8D944C0005E9C7 /* enemy_plane_white_1.png */; };
+		4535803B1D8D944C0005E9C7 /* enemy_plane_white_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 453580381D8D944C0005E9C7 /* enemy_plane_white_2.png */; };
+		4535803C1D8D944C0005E9C7 /* enemy_plane_white_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 453580391D8D944C0005E9C7 /* enemy_plane_white_3.png */; };
+		453F8A1F1D95BB3F004BE79C /* power-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 453F8A1E1D95BB3F004BE79C /* power-up.png */; };
+		453F8A211D95C4BF004BE79C /* bullet-single.png in Resources */ = {isa = PBXBuildFile; fileRef = 453F8A201D95C4BF004BE79C /* bullet-single.png */; };
+		453F8A231D95C5F9004BE79C /* powerup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 453F8A221D95C5F9004BE79C /* powerup.wav */; };
 		45AC614C1D83126B002205EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC614B1D83126B002205EF /* AppDelegate.swift */; };
 		45AC614E1D83126B002205EF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45AC614D1D83126B002205EF /* GameScene.sks */; };
 		45AC61501D83126B002205EF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC614F1D83126B002205EF /* GameScene.swift */; };
@@ -19,9 +27,6 @@
 		45AC61761D8312A2002205EF /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AC61641D8312A2002205EF /* bomb.png */; };
 		45AC61771D8312A2002205EF /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AC61651D8312A2002205EF /* bullet.png */; };
 		45AC61781D8312A2002205EF /* enemy_bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AC61661D8312A2002205EF /* enemy_bullet.png */; };
-		45AC61791D8312A2002205EF /* enemy_plane_white_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AC61671D8312A2002205EF /* enemy_plane_white_1.png */; };
-		45AC617A1D8312A2002205EF /* enemy_plane_white_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AC61681D8312A2002205EF /* enemy_plane_white_2.png */; };
-		45AC617B1D8312A2002205EF /* enemy_plane_white_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AC61691D8312A2002205EF /* enemy_plane_white_3.png */; };
 		45AC617C1D8312A2002205EF /* enemy_plane_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AC616A1D8312A2002205EF /* enemy_plane_yellow.png */; };
 		45AC617D1D8312A2002205EF /* enemy_plane_yellow_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AC616B1D8312A2002205EF /* enemy_plane_yellow_1.png */; };
 		45AC617E1D8312A2002205EF /* enemy_plane_yellow_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AC616C1D8312A2002205EF /* enemy_plane_yellow_2.png */; };
@@ -33,9 +38,26 @@
 		45AC61841D8312A2002205EF /* plane4.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AC61721D8312A2002205EF /* plane4.png */; };
 		45AC61851D8312A2002205EF /* Tools.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45AC61731D8312A2002205EF /* Tools.txt */; };
 		45AC61881D831859002205EF /*  CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC61871D831859002205EF /*  CGPointExtension.swift */; };
+		45FF45B61D956A3200C4D52D /* PlayerPlaneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF45B51D956A3200C4D52D /* PlayerPlaneController.swift */; };
+		45FF45B81D956A4B00C4D52D /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF45B71D956A4B00C4D52D /* BaseController.swift */; };
+		45FF45BA1D956AB400C4D52D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF45B91D956AB400C4D52D /* View.swift */; };
+		45FF45BD1D956BD000C4D52D /* EnemyPlaneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF45BC1D956BD000C4D52D /* EnemyPlaneController.swift */; };
+		45FF45C31D956FCB00C4D52D /* PlayerBulletController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF45C21D956FCB00C4D52D /* PlayerBulletController.swift */; };
+		45FF45C51D956FDF00C4D52D /* EnemyBulletController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF45C41D956FDF00C4D52D /* EnemyBulletController.swift */; };
+		45FF45C71D957AE700C4D52D /* bullet-double.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FF45C61D957AE700C4D52D /* bullet-double.png */; };
+		45FF45CA1D958D6900C4D52D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF45C91D958D6900C4D52D /* Constants.swift */; };
+		45FF45CE1D95985C00C4D52D /* PowerUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF45CD1D95985C00C4D52D /* PowerUpController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4535802B1D8D88730005E9C7 /* laser_shoot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = laser_shoot.wav; sourceTree = "<group>"; };
+		4535802F1D8D8B180005E9C7 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		453580371D8D944C0005E9C7 /* enemy_plane_white_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy_plane_white_1.png; sourceTree = "<group>"; };
+		453580381D8D944C0005E9C7 /* enemy_plane_white_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy_plane_white_2.png; sourceTree = "<group>"; };
+		453580391D8D944C0005E9C7 /* enemy_plane_white_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy_plane_white_3.png; sourceTree = "<group>"; };
+		453F8A1E1D95BB3F004BE79C /* power-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "power-up.png"; sourceTree = "<group>"; };
+		453F8A201D95C4BF004BE79C /* bullet-single.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bullet-single.png"; sourceTree = "<group>"; };
+		453F8A221D95C5F9004BE79C /* powerup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = powerup.wav; sourceTree = "<group>"; };
 		45AC61481D83126B002205EF /* AirStrike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirStrike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AC614B1D83126B002205EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45AC614D1D83126B002205EF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -50,9 +72,6 @@
 		45AC61641D8312A2002205EF /* bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomb.png; sourceTree = "<group>"; };
 		45AC61651D8312A2002205EF /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
 		45AC61661D8312A2002205EF /* enemy_bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy_bullet.png; sourceTree = "<group>"; };
-		45AC61671D8312A2002205EF /* enemy_plane_white_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy_plane_white_1.png; sourceTree = "<group>"; };
-		45AC61681D8312A2002205EF /* enemy_plane_white_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy_plane_white_2.png; sourceTree = "<group>"; };
-		45AC61691D8312A2002205EF /* enemy_plane_white_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy_plane_white_3.png; sourceTree = "<group>"; };
 		45AC616A1D8312A2002205EF /* enemy_plane_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy_plane_yellow.png; sourceTree = "<group>"; };
 		45AC616B1D8312A2002205EF /* enemy_plane_yellow_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy_plane_yellow_1.png; sourceTree = "<group>"; };
 		45AC616C1D8312A2002205EF /* enemy_plane_yellow_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy_plane_yellow_2.png; sourceTree = "<group>"; };
@@ -64,6 +83,15 @@
 		45AC61721D8312A2002205EF /* plane4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane4.png; sourceTree = "<group>"; };
 		45AC61731D8312A2002205EF /* Tools.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tools.txt; sourceTree = "<group>"; };
 		45AC61871D831859002205EF /*  CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " CGPointExtension.swift"; sourceTree = "<group>"; };
+		45FF45B51D956A3200C4D52D /* PlayerPlaneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerPlaneController.swift; path = Controllers/PlayerPlaneController.swift; sourceTree = "<group>"; };
+		45FF45B71D956A4B00C4D52D /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		45FF45B91D956AB400C4D52D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View.swift; path = Views/View.swift; sourceTree = "<group>"; };
+		45FF45BC1D956BD000C4D52D /* EnemyPlaneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnemyPlaneController.swift; path = Controllers/EnemyPlaneController.swift; sourceTree = "<group>"; };
+		45FF45C21D956FCB00C4D52D /* PlayerBulletController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerBulletController.swift; path = Controllers/PlayerBulletController.swift; sourceTree = "<group>"; };
+		45FF45C41D956FDF00C4D52D /* EnemyBulletController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnemyBulletController.swift; path = Controllers/EnemyBulletController.swift; sourceTree = "<group>"; };
+		45FF45C61D957AE700C4D52D /* bullet-double.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bullet-double.png"; sourceTree = "<group>"; };
+		45FF45C91D958D6900C4D52D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Constants/Constants.swift; sourceTree = "<group>"; };
+		45FF45CD1D95985C00C4D52D /* PowerUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerUpController.swift; path = Controllers/PowerUpController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +105,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		453580291D8D821B0005E9C7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4535802B1D8D88730005E9C7 /* laser_shoot.wav */,
+				4535802F1D8D8B180005E9C7 /* explosion.wav */,
+				453F8A221D95C5F9004BE79C /* powerup.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		4535802A1D8D82270005E9C7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				453F8A201D95C4BF004BE79C /* bullet-single.png */,
+				453F8A1E1D95BB3F004BE79C /* power-up.png */,
+				45AC61731D8312A2002205EF /* Tools.txt */,
+				45FF45C61D957AE700C4D52D /* bullet-double.png */,
+				45AC61621D8312A2002205EF /* 1945-logo.png */,
+				45AC61631D8312A2002205EF /* background.png */,
+				45AC61641D8312A2002205EF /* bomb.png */,
+				45AC61651D8312A2002205EF /* bullet.png */,
+				45AC61661D8312A2002205EF /* enemy_bullet.png */,
+				453580371D8D944C0005E9C7 /* enemy_plane_white_1.png */,
+				453580381D8D944C0005E9C7 /* enemy_plane_white_2.png */,
+				453580391D8D944C0005E9C7 /* enemy_plane_white_3.png */,
+				45AC616A1D8312A2002205EF /* enemy_plane_yellow.png */,
+				45AC616B1D8312A2002205EF /* enemy_plane_yellow_1.png */,
+				45AC616C1D8312A2002205EF /* enemy_plane_yellow_2.png */,
+				45AC616D1D8312A2002205EF /* enemy_plane_yellow_3.png */,
+				45AC616E1D8312A2002205EF /* explosion.png */,
+				45AC616F1D8312A2002205EF /* plane1.png */,
+				45AC61701D8312A2002205EF /* plane2.png */,
+				45AC61711D8312A2002205EF /* plane3.png */,
+				45AC61721D8312A2002205EF /* plane4.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		45AC613F1D83126B002205EF = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +162,9 @@
 		45AC614A1D83126B002205EF /* AirStrike */ = {
 			isa = PBXGroup;
 			children = (
+				45FF45C81D958D4300C4D52D /* Constants */,
+				45FF45BB1D956AD700C4D52D /* Views */,
+				45FF45B41D95693300C4D52D /* Controllers */,
 				45AC61611D8312A2002205EF /* Resources */,
 				45AC61861D831824002205EF /* Utilities */,
 				45AC614B1D83126B002205EF /* AppDelegate.swift */,
@@ -113,24 +182,8 @@
 		45AC61611D8312A2002205EF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				45AC61621D8312A2002205EF /* 1945-logo.png */,
-				45AC61631D8312A2002205EF /* background.png */,
-				45AC61641D8312A2002205EF /* bomb.png */,
-				45AC61651D8312A2002205EF /* bullet.png */,
-				45AC61661D8312A2002205EF /* enemy_bullet.png */,
-				45AC61671D8312A2002205EF /* enemy_plane_white_1.png */,
-				45AC61681D8312A2002205EF /* enemy_plane_white_2.png */,
-				45AC61691D8312A2002205EF /* enemy_plane_white_3.png */,
-				45AC616A1D8312A2002205EF /* enemy_plane_yellow.png */,
-				45AC616B1D8312A2002205EF /* enemy_plane_yellow_1.png */,
-				45AC616C1D8312A2002205EF /* enemy_plane_yellow_2.png */,
-				45AC616D1D8312A2002205EF /* enemy_plane_yellow_3.png */,
-				45AC616E1D8312A2002205EF /* explosion.png */,
-				45AC616F1D8312A2002205EF /* plane1.png */,
-				45AC61701D8312A2002205EF /* plane2.png */,
-				45AC61711D8312A2002205EF /* plane3.png */,
-				45AC61721D8312A2002205EF /* plane4.png */,
-				45AC61731D8312A2002205EF /* Tools.txt */,
+				4535802A1D8D82270005E9C7 /* Images */,
+				453580291D8D821B0005E9C7 /* Sounds */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -141,6 +194,35 @@
 				45AC61871D831859002205EF /*  CGPointExtension.swift */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		45FF45B41D95693300C4D52D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45FF45B71D956A4B00C4D52D /* BaseController.swift */,
+				45FF45B51D956A3200C4D52D /* PlayerPlaneController.swift */,
+				45FF45C21D956FCB00C4D52D /* PlayerBulletController.swift */,
+				45FF45BC1D956BD000C4D52D /* EnemyPlaneController.swift */,
+				45FF45C41D956FDF00C4D52D /* EnemyBulletController.swift */,
+				45FF45CD1D95985C00C4D52D /* PowerUpController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		45FF45BB1D956AD700C4D52D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45FF45B91D956AB400C4D52D /* View.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		45FF45C81D958D4300C4D52D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				45FF45C91D958D6900C4D52D /* Constants.swift */,
+			);
+			name = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,27 +284,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				45AC61761D8312A2002205EF /* bomb.png in Resources */,
+				4535803B1D8D944C0005E9C7 /* enemy_plane_white_2.png in Resources */,
+				453F8A211D95C4BF004BE79C /* bullet-single.png in Resources */,
 				45AC614E1D83126B002205EF /* GameScene.sks in Resources */,
 				45AC61751D8312A2002205EF /* background.png in Resources */,
 				45AC615A1D83126B002205EF /* LaunchScreen.storyboard in Resources */,
+				453580301D8D8B180005E9C7 /* explosion.wav in Resources */,
 				45AC61841D8312A2002205EF /* plane4.png in Resources */,
 				45AC61821D8312A2002205EF /* plane2.png in Resources */,
 				45AC617E1D8312A2002205EF /* enemy_plane_yellow_2.png in Resources */,
+				4535803C1D8D944C0005E9C7 /* enemy_plane_white_3.png in Resources */,
 				45AC617F1D8312A2002205EF /* enemy_plane_yellow_3.png in Resources */,
-				45AC617A1D8312A2002205EF /* enemy_plane_white_2.png in Resources */,
 				45AC61801D8312A2002205EF /* explosion.png in Resources */,
 				45AC61571D83126B002205EF /* Assets.xcassets in Resources */,
 				45AC617C1D8312A2002205EF /* enemy_plane_yellow.png in Resources */,
 				45AC61811D8312A2002205EF /* plane1.png in Resources */,
-				45AC61791D8312A2002205EF /* enemy_plane_white_1.png in Resources */,
 				45AC61771D8312A2002205EF /* bullet.png in Resources */,
 				45AC61551D83126B002205EF /* Main.storyboard in Resources */,
-				45AC617B1D8312A2002205EF /* enemy_plane_white_3.png in Resources */,
+				4535802C1D8D88730005E9C7 /* laser_shoot.wav in Resources */,
 				45AC61831D8312A2002205EF /* plane3.png in Resources */,
+				45FF45C71D957AE700C4D52D /* bullet-double.png in Resources */,
+				453F8A231D95C5F9004BE79C /* powerup.wav in Resources */,
+				453F8A1F1D95BB3F004BE79C /* power-up.png in Resources */,
 				45AC617D1D8312A2002205EF /* enemy_plane_yellow_1.png in Resources */,
 				45AC61741D8312A2002205EF /* 1945-logo.png in Resources */,
 				45AC61851D8312A2002205EF /* Tools.txt in Resources */,
 				45AC61781D8312A2002205EF /* enemy_bullet.png in Resources */,
+				4535803A1D8D944C0005E9C7 /* enemy_plane_white_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,10 +321,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FF45C31D956FCB00C4D52D /* PlayerBulletController.swift in Sources */,
+				45FF45CA1D958D6900C4D52D /* Constants.swift in Sources */,
 				45AC61501D83126B002205EF /* GameScene.swift in Sources */,
+				45FF45B61D956A3200C4D52D /* PlayerPlaneController.swift in Sources */,
+				45FF45CE1D95985C00C4D52D /* PowerUpController.swift in Sources */,
 				45AC61521D83126B002205EF /* GameViewController.swift in Sources */,
 				45AC614C1D83126B002205EF /* AppDelegate.swift in Sources */,
+				45FF45B81D956A4B00C4D52D /* BaseController.swift in Sources */,
+				45FF45C51D956FDF00C4D52D /* EnemyBulletController.swift in Sources */,
+				45FF45BA1D956AB400C4D52D /* View.swift in Sources */,
 				45AC61881D831859002205EF /*  CGPointExtension.swift in Sources */,
+				45FF45BD1D956BD000C4D52D /* EnemyPlaneController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +484,7 @@
 				45AC61601D83126B002205EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
